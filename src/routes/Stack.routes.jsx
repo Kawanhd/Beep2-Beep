@@ -3,6 +3,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import LoginScreen from './screens/Login';
 import SignUpScreen from './screens/Cadastro';
 import PasswordRecoveryScreen from './screens/RecoverPass';
+import Profile from './screens/Profiler';
 
 const Stack = createStackNavigator();
 
@@ -28,6 +29,11 @@ export default function StackRoutes() {
         name="Cadastro"
         component={SignUpScreen}
         options={{ headerShown: false }}
+      />
+      <Stack.Screen
+      name='Profile'
+      component={Profile}
+      options={{headerShown: false}}
       />
     </Stack.Navigator>
   );

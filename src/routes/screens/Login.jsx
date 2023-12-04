@@ -51,7 +51,7 @@ const TelaLogin = () => {
               onChangeText={text => setPassword(text)}
             />
           </View>
-          <TouchableOpacity style={styles.loginButton} onPress={handleLogin}>
+          <TouchableOpacity style={styles.loginButton} onPress={() => navigation.navigate('Profile')}>
             <Text style={styles.loginButtonText}>Login</Text>
           </TouchableOpacity>
           <TouchableOpacity onPress={handleSignUpPress}>
