@@ -32,7 +32,6 @@ export default function TabRoutes() {
       })}
     >
       <Tab.Screen name="Blocos" component={Home} />
-      <Tab.Screen name="Profile" component={Profile} />
       <Tab.Screen name="Scanear" component={Camera} />
       <Tab.Screen name="Historico" component={History} />
     </Tab.Navigator>

@@ -15,7 +15,7 @@ return (
     
     <Drawer.Navigator screenOptions={{ title: ' ' }}>
     <Drawer.Screen
-        name="Login-"
+        name="Log-in"
         component={StackRoutes}
         options={{
         drawerIcon: ({ color, size }) => (
